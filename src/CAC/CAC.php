@@ -17,7 +17,7 @@ class CAC extends PluginBase {
 		if ($color === null) {
 			return new Item($id,$meta,$amount);
 		}else{
-			$armors = [298,299,230,231];
+			$armors = [298,299,300,301];
 			if (in_array($armors, $id)) {
 				$item = new Item($id,$meta,$amount);
 				$this->setCustomColor($color,$item);
